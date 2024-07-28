@@ -1,0 +1,22 @@
+create database project;
+
+use project;
+
+create table tbllogin(
+NICNo char (12),
+Password varchar(20),
+Primary Key (NICNo ));
+
+create table tblregister (
+NICNo char (12),
+FirstName varchar(20),
+MiddleName varchar(20),
+LastName varchar(20),
+Gender char(10),
+Birthday date,
+Contact char(10),
+Email varchar(20),
+Address varchar(50),
+Username char (12),
+Password varchar(20),
+Primary Key (NICNo ));

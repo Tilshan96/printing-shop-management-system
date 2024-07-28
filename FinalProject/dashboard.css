@@ -1,0 +1,28 @@
+ul li p{
+	color:rgb(255,179,79);
+}
+		
+body{
+	background-color: rgba(62,88,113);
+	color:white;
+}
+		
+.blink {
+	animation: blinker 1.5s linear infinite;
+    color: white;
+    font-family: Lucida Console;
+	font-size:25;
+}
+			
+@keyframes blinker {
+    50% {
+       opacity: 0;
+    }
+} 
+			
+.bgimg {
+	background-image: url('dashboard.jpeg');
+	height:690; 
+	width:1035;
+	opacity:0.5;
+}
